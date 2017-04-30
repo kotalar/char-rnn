@@ -35,7 +35,7 @@ cmd:text('Options')
 -- data
 cmd:option('-data_dir','data/tinyshakespeare','data directory. Should contain the file input.txt with input data')
 -- model params
-cmd:option('-rnn_size', 128, 'size of LSTM internal state')
+cmd:option('-rnn_size', 300, 'size of LSTM internal state')
 cmd:option('-num_layers', 2, 'number of layers in the LSTM')
 cmd:option('-model', 'lstm', 'lstm,gru or rnn')
 -- optimization
